@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/Merriweather-UltraBold.woff2') format('woff2'),
+        url('../fonts/Merriweather-UltraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helios';
+    src: url('../fonts/Helios-Bold.woff2') format('woff2'),
+        url('../fonts/Helios-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helios';
+    src: url('../fonts/Helios.woff2') format('woff2'),
+        url('../fonts/Helios.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

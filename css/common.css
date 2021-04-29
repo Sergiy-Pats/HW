@@ -1,0 +1,162 @@
+.header .logo span {
+    width: 100px;
+    font-size: 18px;
+}
+
+.header .logo img {
+    margin-top: -10px;
+    width: 70px;
+}
+
+.header {
+    background: url(../img/top.png) repeat;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.center-item-content {
+    max-width: none;
+    width: 100%;
+    margin-bottom: 110px;
+}
+
+.content-style p {
+    line-height: 1.6
+}
+
+.content-style ul {
+    padding: 0;
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.content-style ul li {
+    padding: 4px 4px 11px;
+    line-height: 1.4;
+}
+
+.content-style ul li:before {
+    padding-right: 10px;
+    font-weight: bold;
+    color: #20b777;
+    content: "\2714";
+    transition-duration: 0.5s;
+}
+
+.content-style ul li:hover:before {
+    color: #20b777;
+    content: "\2714";
+}
+
+
+.sidebar-item .current {
+    color: #000;
+
+}
+
+.arab-markup {
+    text-align: right;
+}
+
+
+.text-body ul {
+    padding: 0;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+
+.text-body ul > li {
+    padding: 4px;
+    line-height: 1.4;
+}
+
+.text-body ul li:before {
+    padding-right: 10px;
+    font-weight: bold;
+    color: #C0C0C0;
+    content: "\2714";
+    transition-duration: 0.5s;
+}
+
+
+.float-nav {
+    margin: 0;
+    padding: 18px;
+    list-style: none;
+    position: fixed;
+    top: 30%;
+    right: 0;
+    z-index: 99;
+    width: 285px;
+    border-radius: 6px 0 0 6px;
+    background-color: #20b777;
+    -webkit-transform: translateX(85%);
+    transform: translateX(85%);
+    -webkit-transition: 400ms;
+    transition: 400ms;
+
+    display: flex;
+    flex-direction: row; /* Элементы внутри контейнера будут позиционироваться горизонтально */
+    align-items: stretch; /* Элементы внутри контейнера будут занимать всю его высоту */
+}
+
+.float-nav .elem {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    width: .7em;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+
+.float-nav-title{
+    padding-top: 15%;
+}
+
+
+.float-nav:hover {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.float-nav:hover:hover .float-nav-title{
+    display: none;
+    -webkit-transition: 400ms;
+    transition: 400ms;
+}
+
+
+.float-nav:hover .float-nav__text {
+    opacity: 1;
+}
+
+.float-nav li {
+    margin-bottom: 26px;
+}
+
+.float-nav li:last-child {
+    margin-bottom: 0;
+}
+
+.float-nav li a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+@media (max-width: 767px) {
+    .float-nav {
+        display: none;
+    }
+}
+
+
